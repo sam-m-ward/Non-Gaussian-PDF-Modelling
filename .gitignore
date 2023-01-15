@@ -5,3 +5,4 @@ data/.DS_Store
 posterior_plot.pdf
 products/.DS_Store
 products/G_DICTS/
+simulate_nonGaussian.py
