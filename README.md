@@ -9,7 +9,7 @@ Functions describing a population are often selected from a well-behaved, well-u
 
 ## Methodology
 
-The methodology is simple and proceeds like so: any distribution has a CDF, which is a monotonically increasing function from 0 to 1. The shape of the CDF is characterised by quantiles, i.e. summing up the non-Gaussian pdf probability from x=-infty to x=infty. With these quantile coordinates in hand, you can flip the x and y axes, and you have the range u=0 to u=1 on the x-axis, and the ICDF on the y-axis, i.e. the inverse cumulative distribution function. 
+The methodology is simple and proceeds like so: any distribution has a CDF, which is a monotonically increasing function from 0 to 1. The shape of the CDF is characterised by quantiles, i.e. summing up the non-Gaussian pdf probability from x=-infty to x=infty. With these quantile coordinates in hand, you can flip the x and y axes, so that the range u=0 to u=1 is on the x-axis, and the ICDF is on the y-axis (the inverse cumulative distribution function). 
 
 The magic is then to take draws from a uniform distribution u\~U(0,1), and plug these u-values into the ICDF. The draws x=ICDF(u) where u\~U(0,1) are equivalent to draws from the original non-Gaussian pdf: x\~pdf(x). Therefore, one need only derive a parametric model for the (relatively smooth) monotically increasing ICDF function, and you now have access to a no-name distribution in your computer (just as you would a Gaussian, uniform, exponential etc.). 
 
