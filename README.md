@@ -20,5 +20,5 @@ In this repo, I use monotonically increasing cubic splines to interpolate the IC
 ## Application
 
 I explore two use-cases for non-Gaussian pdf sampling:
-1. Building a distribution from a histogram comprised of ~100's of real-world data points (distance errors from fits to simulated LSST light curves); **see use_case_1.ipynb**
+1. Building a distribution from a histogram comprised of ~100's of real-world data points (distance errors from fits to SN Ia light curves); **see use_case_1.ipynb**
 2. Implementing non-Gaussian (photometric redshift) pdfs into a hierarchical Bayesian model (BayeSN); **see use_case_2.ipynb**
