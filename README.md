@@ -1,7 +1,7 @@
 # Non-Gaussian-PDF-Modelling
 *Non-Gaussian pdfs: how to model them, simulate from them, and include them as Bayesian Priors*
 
-This repo project contains methods for modelling Non-Gaussian pdfs.
+This repo project contains methods for modelling non-Gaussian pdfs.
 
 ## Motivation
 
